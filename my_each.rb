@@ -6,3 +6,5 @@ def my_each(given_array)
 end
 given_array
 end
+
+my_each(name) {|name| puts name}
