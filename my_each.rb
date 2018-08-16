@@ -1,6 +1,7 @@
 def my_each(given_array)
-  
-  given_array.each do |element|
-  yield(element)
+  counter = 0 
+  while counter<given_array.length 
+  yield(given_array[element])
+  counter+=1 
 end
 end
