@@ -7,4 +7,6 @@ end
 given_array
 end
 
-my_each{ |name| puts name }
+my_each(name) do |names|
+  puts names
+end
